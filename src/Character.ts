@@ -49,7 +49,7 @@ class Character implements Fighter {
   get dexterity(): number {
     return this._dexterity;
   }
-  
+
   get energy(): Energy {
     return { type_: this._energy.type_, amount: this._energy.amount };
   }
